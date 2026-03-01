@@ -1,3 +1,12 @@
-#include <string>
+#ifndef prime_h
+#define prime_h
 
-std::string prime();
+#include <vector>
+using namespace std;
+
+class Factorizer {
+public:
+    vector<int> primeFactors(int n);
+};
+
+#endif
